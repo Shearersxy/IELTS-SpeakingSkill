@@ -1,0 +1,7 @@
+interface:
+  display_name: "IELTS Speaking"
+  short_description: "Manage IELTS speaking questions, answers, stories, and reviews."
+  default_prompt: "Use $ielts-speaking to add current-season speaking questions, polish or draft editable answers, save approved answers, extract reusable Part 2 stories, practice daily, and review past questions."
+
+policy:
+  allow_implicit_invocation: true
