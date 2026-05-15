@@ -102,6 +102,8 @@ For Part 2 answers, update `story_ids_used` after extracting or matching a reusa
 
 Stores the user's stable background and personal details for natural answer generation.
 
+`profile.speaking_preferences.target_band` controls the default answer generation level. Use `7.0-7.5` when the field is missing or unset. `/ielts-speaking level [target band]` updates this field only.
+
 ```json
 {
   "profile": {
